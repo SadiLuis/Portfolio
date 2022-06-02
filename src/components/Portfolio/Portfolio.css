@@ -38,3 +38,7 @@
   border-radius: 19px;
 }
 
+.portfolio img {
+  transform: scale(1.1);
+  cursor: pointer;
+}
