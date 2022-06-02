@@ -58,13 +58,13 @@ const Intro = () => {
         <img src={Vector2} alt="" /> */}
         {/* <img src={boy} alt="" /> */}
         {/* animation */}
-        <motion.img
+        {/* <motion.img
           initial={{ left: "-36%" }}
           whileInView={{ left: "-24%" }}
           transition={transition}
           src={glassesimoji}
           alt=""
-        />
+        />*/}
 
         <motion.div
           initial={{ top: "-4%", left: "74%" }}
@@ -83,7 +83,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="Here's a photo" text2="coming soon" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
