@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './Full-StackCV_english.pdf';
+import Resume from './Full-StackCVwithPortfolio_english.pdf';
 
 const Services = () => {
   // context

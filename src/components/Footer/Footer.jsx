@@ -4,6 +4,7 @@ import Wave from "../../img/wave.png";
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
+import LinkedIn from "@iconscout/react-unicons/icons/uil-linkedin"
 
 const Footer = () => {
   return (
@@ -12,9 +13,12 @@ const Footer = () => {
       <div className="f-content">
         <span>sadiluisrueda.94@gmail.com</span>
         <div className="f-icons">
-          <Insta color="white" size={"3rem"} />
-          <Facebook color="white" size={"3rem"} />
+          <a href="https://www.linkedin.com/in/sadi-luis-alberto-rueda-fullstack/"> 
+          <LinkedIn color="white" size={"3rem"} />
+          </a>
+          <a href="https://github.com/SadiLuis"> 
           <Gitub color="white" size={"3rem"} />
+          </a>
         </div>
       </div>
     </div>

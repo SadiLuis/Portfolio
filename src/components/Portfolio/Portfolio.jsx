@@ -5,7 +5,7 @@ import "swiper/css";
 import ToodoList from "../../img/ToodoList.png";
 import Ecommerce from "../../img/E-commrce.png";
 import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
+import Chat from "../../img/chat.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -34,11 +34,13 @@ const Portfolio = () => {
             </a>          
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+          <a href="https://chat-app-react18.netlify.app">
+          <img src={Chat} alt="" />
+          </a>          
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <img src={HOC} alt="" />
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </div>
   );
