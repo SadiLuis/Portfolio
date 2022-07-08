@@ -24,7 +24,7 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Aweesom</span>
+        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>CV</span>
         <spane>
         If you want to meet me or know something more about me.
