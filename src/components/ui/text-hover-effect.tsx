@@ -42,7 +42,7 @@ export const TextHoverEffect = ({
         <linearGradient id="textGradient" gradientUnits="userSpaceOnUse">
           {hovered && (
             <>
-              <stop offset="0%" stopColor={"var(--yellow-500)"} />
+              <stop offset="50%" stopColor={"var(--green-500)"} />
               <stop offset="75%" stopColor={"var(--red-500)"} />
               <stop offset="50%" stopColor={"var(--blue-500)"} />
               <stop offset="75%" stopColor={"var(--cyan-500)"} />
@@ -74,7 +74,7 @@ export const TextHoverEffect = ({
         dominantBaseline="middle"
         strokeWidth="0.2"
         className="font-[helvetica] font-bold stroke-neutral-200 dark:stroke-neutral-800 fill-transparent text-7xl"
-        style={{ opacity: hovered ? 0.7 : 0 }}
+        style={{ opacity: hovered ? 0.8 : 0 }}
       >
         {text}
       </text>
@@ -84,7 +84,7 @@ export const TextHoverEffect = ({
         y="50%"
         textAnchor="middle"
         dominantBaseline="middle"
-        strokeWidth="0.2"
+        strokeWidth="0.8"
         className="font-[helvetica] font-bold fill-transparent text-7xl stroke-neutral-400 dark:stroke-neutral-800"
         initial={{ strokeDashoffset: 1000, strokeDasharray: 1000 }}
         animate={{ strokeDashoffset: 0, strokeDasharray: 1000 }}

@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <div className="relative min-h-screen text-white flex flex-col items-center justify-center px-6">
       {/* Header con el botón de cambio de tema */}
-      <header className="sticky top-0 w-full flex justify-end p-4 bg-opacity-50 backdrop-blur-lg z-10">
+      <header className="sticky top-0 w-full flex justify-end">
         <ModeToggle />
       </header>
 
